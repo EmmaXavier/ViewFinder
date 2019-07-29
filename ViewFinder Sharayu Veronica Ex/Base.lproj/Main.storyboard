@@ -51,7 +51,7 @@
         <!--Add New Photo-->
         <scene sceneID="6BI-Ni-jax">
             <objects>
-                <viewController id="Ge4-Jw-bvw" sceneMemberID="viewController">
+                <viewController id="Ge4-Jw-bvw" customClass="AddPhotoViewController" customModule="ViewFinder_Sharayu_Veronica_Ex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nmh-au-6Re">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -68,11 +68,17 @@
                                 <rect key="frame" x="93" y="525" width="54" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Camera"/>
+                                <connections>
+                                    <action selector="cameraTapped:" destination="Ge4-Jw-bvw" eventType="touchUpInside" id="n2a-gU-9jY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGt-nV-EWD">
                                 <rect key="frame" x="237" y="525" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Photo Library"/>
+                                <connections>
+                                    <action selector="photoLibraryTapped:" destination="Ge4-Jw-bvw" eventType="touchUpInside" id="nwf-Z3-1GB"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cameraaa" translatesAutoresizingMaskIntoConstraints="NO" id="73a-DF-nko">
                                 <rect key="frame" x="87" y="188" width="240" height="207"/>
@@ -89,12 +95,18 @@
                                 <rect key="frame" x="190" y="613" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="saveTapped:" destination="Ge4-Jw-bvw" eventType="touchUpInside" id="G5A-ay-oni"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="KKl-r9-xQH"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add New Photo" id="FsK-AK-5nC"/>
+                    <connections>
+                        <outlet property="newImage" destination="73a-DF-nko" id="43O-Qa-hdd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ngn-ky-g8R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
