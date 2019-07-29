@@ -16,6 +16,7 @@
 		189D79DA22EF49290019473C /* ViewFinder_Sharayu_Veronica_ExUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D79D922EF49290019473C /* ViewFinder_Sharayu_Veronica_ExUITests.swift */; };
 		189D79E822EF65690019473C /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D79E722EF65690019473C /* AddPhotoViewController.swift */; };
 		189D79EC22EF707E0019473C /* PostTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D79EB22EF707E0019473C /* PostTableTableViewController.swift */; };
+		189D79EE22EF8F250019473C /* PhotoDetailViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D79ED22EF8F250019473C /* PhotoDetailViewControllerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		189D79DB22EF49290019473C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		189D79E722EF65690019473C /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
 		189D79EB22EF707E0019473C /* PostTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableTableViewController.swift; sourceTree = "<group>"; };
+		189D79ED22EF8F250019473C /* PhotoDetailViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewControllerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				189D79B622EF49270019473C /* AppDelegate.swift */,
 				189D79EB22EF707E0019473C /* PostTableTableViewController.swift */,
 				189D79BA22EF49270019473C /* Main.storyboard */,
+				189D79ED22EF8F250019473C /* PhotoDetailViewControllerTableViewCell.swift */,
 				189D79E722EF65690019473C /* AddPhotoViewController.swift */,
 				189D79C022EF49290019473C /* Assets.xcassets */,
 				189D79C222EF49290019473C /* LaunchScreen.storyboard */,
@@ -266,6 +269,7 @@
 				189D79E822EF65690019473C /* AddPhotoViewController.swift in Sources */,
 				189D79EC22EF707E0019473C /* PostTableTableViewController.swift in Sources */,
 				189D79BF22EF49270019473C /* ViewFinder_Sharayu_Veronica_Ex.xcdatamodeld in Sources */,
+				189D79EE22EF8F250019473C /* PhotoDetailViewControllerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
