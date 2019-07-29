@@ -13,7 +13,7 @@
         <!--Title-->
         <scene sceneID="3KS-17-v8m">
             <objects>
-                <tableViewController id="Ete-ZB-FWp" sceneMemberID="viewController">
+                <tableViewController id="Ete-ZB-FWp" customClass="PostTableTableViewController" customModule="ViewFinder_Sharayu_Veronica_Ex" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="f8d-HW-qAI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -105,25 +105,13 @@
                     </view>
                     <navigationItem key="navigationItem" title="Add New Photo" id="FsK-AK-5nC"/>
                     <connections>
+                        <outlet property="imageDescription" destination="otd-zv-IiN" id="TaN-B5-DpR"/>
                         <outlet property="newImage" destination="73a-DF-nko" id="43O-Qa-hdd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ngn-ky-g8R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2582.608695652174" y="720.53571428571422"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="8oy-eA-ZoN">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qGY-DD-s9l" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="b0X-dA-E0b">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9No-Ck-tB6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4747.826086956522" y="743.97321428571422"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="n6O-Ef-mNn">

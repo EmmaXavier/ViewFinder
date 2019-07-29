@@ -10,6 +10,7 @@ import UIKit
 
 class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    @IBOutlet weak var imageDescription: UITextField!
     var imagePicker = UIImagePickerController()
     
     
@@ -31,15 +32,21 @@ class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
         present(imagePicker, animated: true, completion: nil)
     }
     
-    @IBAction func saveTapped(_ sender: Any) {
+    @IBAction func saveTapped(_ sender: UIButton) {
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            let photoToSave = Photos(entity: Photos.entity(), insertInto: context)
+            photoToSave.caption = imageDescription.text
+            if let userImage = newImage.image {
+                if let userImageData = userImage.pngData() {
+                    photoToSave.imageData = userImageData
+                }
+        }
+        (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
+            
+            navigationController?.popViewController(animated: true)
     }
     
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage{
-            newImage.image = selectedImage
-        }
-        imagePicker.dismiss(animated: true, completion: nil)
-    }
+    
     /*
     // MARK: - Navigation
 
@@ -50,4 +57,11 @@ class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
     }
     */
 
+}
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+            newImage.image = selectedImage
+        }
+        imagePicker.dismiss(animated: true, completion: nil)
+    }
 }
