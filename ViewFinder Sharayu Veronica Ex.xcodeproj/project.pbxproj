@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189D79B722EF49270019473C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D79B622EF49270019473C /* AppDelegate.swift */; };
+		189D79B922EF49270019473C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D79B822EF49270019473C /* ViewController.swift */; };
+		189D79BC22EF49270019473C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189D79BA22EF49270019473C /* Main.storyboard */; };
+		189D79BF22EF49270019473C /* ViewFinder_Sharayu_Veronica_Ex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 189D79BD22EF49270019473C /* ViewFinder_Sharayu_Veronica_Ex.xcdatamodeld */; };
+		189D79C122EF49290019473C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189D79C022EF49290019473C /* Assets.xcassets */; };
+		189D79C422EF49290019473C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189D79C222EF49290019473C /* LaunchScreen.storyboard */; };
+		189D79CF22EF49290019473C /* ViewFinder_Sharayu_Veronica_ExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D79CE22EF49290019473C /* ViewFinder_Sharayu_Veronica_ExTests.swift */; };
+		189D79DA22EF49290019473C /* ViewFinder_Sharayu_Veronica_ExUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D79D922EF49290019473C /* ViewFinder_Sharayu_Veronica_ExUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		189D79CB22EF49290019473C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189D79AB22EF49270019473C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189D79B222EF49270019473C;
+			remoteInfo = "ViewFinder Sharayu Veronica Ex";
+		};
+		189D79D622EF49290019473C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189D79AB22EF49270019473C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189D79B222EF49270019473C;
+			remoteInfo = "ViewFinder Sharayu Veronica Ex";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		189D79B322EF49270019473C /* ViewFinder Sharayu Veronica Ex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ViewFinder Sharayu Veronica Ex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189D79B622EF49270019473C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		189D79B822EF49270019473C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		189D79BB22EF49270019473C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189D79BE22EF49270019473C /* ViewFinder_Sharayu_Veronica_Ex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ViewFinder_Sharayu_Veronica_Ex.xcdatamodel; sourceTree = "<group>"; };
+		189D79C022EF49290019473C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189D79C322EF49290019473C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		189D79C522EF49290019473C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189D79CA22EF49290019473C /* ViewFinder Sharayu Veronica ExTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ViewFinder Sharayu Veronica ExTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189D79CE22EF49290019473C /* ViewFinder_Sharayu_Veronica_ExTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFinder_Sharayu_Veronica_ExTests.swift; sourceTree = "<group>"; };
+		189D79D022EF49290019473C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189D79D522EF49290019473C /* ViewFinder Sharayu Veronica ExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ViewFinder Sharayu Veronica ExUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189D79D922EF49290019473C /* ViewFinder_Sharayu_Veronica_ExUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFinder_Sharayu_Veronica_ExUITests.swift; sourceTree = "<group>"; };
+		189D79DB22EF49290019473C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189D79B022EF49270019473C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189D79C722EF49290019473C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189D79D222EF49290019473C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189D79AA22EF49270019473C = {
+			isa = PBXGroup;
+			children = (
+				189D79B522EF49270019473C /* ViewFinder Sharayu Veronica Ex */,
+				189D79CD22EF49290019473C /* ViewFinder Sharayu Veronica ExTests */,
+				189D79D822EF49290019473C /* ViewFinder Sharayu Veronica ExUITests */,
+				189D79B422EF49270019473C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		189D79B422EF49270019473C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189D79B322EF49270019473C /* ViewFinder Sharayu Veronica Ex.app */,
+				189D79CA22EF49290019473C /* ViewFinder Sharayu Veronica ExTests.xctest */,
+				189D79D522EF49290019473C /* ViewFinder Sharayu Veronica ExUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189D79B522EF49270019473C /* ViewFinder Sharayu Veronica Ex */ = {
+			isa = PBXGroup;
+			children = (
+				189D79B622EF49270019473C /* AppDelegate.swift */,
+				189D79B822EF49270019473C /* ViewController.swift */,
+				189D79BA22EF49270019473C /* Main.storyboard */,
+				189D79C022EF49290019473C /* Assets.xcassets */,
+				189D79C222EF49290019473C /* LaunchScreen.storyboard */,
+				189D79C522EF49290019473C /* Info.plist */,
+				189D79BD22EF49270019473C /* ViewFinder_Sharayu_Veronica_Ex.xcdatamodeld */,
+			);
+			path = "ViewFinder Sharayu Veronica Ex";
+			sourceTree = "<group>";
+		};
+		189D79CD22EF49290019473C /* ViewFinder Sharayu Veronica ExTests */ = {
+			isa = PBXGroup;
+			children = (
+				189D79CE22EF49290019473C /* ViewFinder_Sharayu_Veronica_ExTests.swift */,
+				189D79D022EF49290019473C /* Info.plist */,
+			);
+			path = "ViewFinder Sharayu Veronica ExTests";
+			sourceTree = "<group>";
+		};
+		189D79D822EF49290019473C /* ViewFinder Sharayu Veronica ExUITests */ = {
+			isa = PBXGroup;
+			children = (
+				189D79D922EF49290019473C /* ViewFinder_Sharayu_Veronica_ExUITests.swift */,
+				189D79DB22EF49290019473C /* Info.plist */,
+			);
+			path = "ViewFinder Sharayu Veronica ExUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189D79B222EF49270019473C /* ViewFinder Sharayu Veronica Ex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189D79DE22EF49290019473C /* Build configuration list for PBXNativeTarget "ViewFinder Sharayu Veronica Ex" */;
+			buildPhases = (
+				189D79AF22EF49270019473C /* Sources */,
+				189D79B022EF49270019473C /* Frameworks */,
+				189D79B122EF49270019473C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ViewFinder Sharayu Veronica Ex";
+			productName = "ViewFinder Sharayu Veronica Ex";
+			productReference = 189D79B322EF49270019473C /* ViewFinder Sharayu Veronica Ex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		189D79C922EF49290019473C /* ViewFinder Sharayu Veronica ExTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189D79E122EF49290019473C /* Build configuration list for PBXNativeTarget "ViewFinder Sharayu Veronica ExTests" */;
+			buildPhases = (
+				189D79C622EF49290019473C /* Sources */,
+				189D79C722EF49290019473C /* Frameworks */,
+				189D79C822EF49290019473C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189D79CC22EF49290019473C /* PBXTargetDependency */,
+			);
+			name = "ViewFinder Sharayu Veronica ExTests";
+			productName = "ViewFinder Sharayu Veronica ExTests";
+			productReference = 189D79CA22EF49290019473C /* ViewFinder Sharayu Veronica ExTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		189D79D422EF49290019473C /* ViewFinder Sharayu Veronica ExUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189D79E422EF49290019473C /* Build configuration list for PBXNativeTarget "ViewFinder Sharayu Veronica ExUITests" */;
+			buildPhases = (
+				189D79D122EF49290019473C /* Sources */,
+				189D79D222EF49290019473C /* Frameworks */,
+				189D79D322EF49290019473C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189D79D722EF49290019473C /* PBXTargetDependency */,
+			);
+			name = "ViewFinder Sharayu Veronica ExUITests";
+			productName = "ViewFinder Sharayu Veronica ExUITests";
+			productReference = 189D79D522EF49290019473C /* ViewFinder Sharayu Veronica ExUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189D79AB22EF49270019473C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					189D79B222EF49270019473C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					189D79C922EF49290019473C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 189D79B222EF49270019473C;
+					};
+					189D79D422EF49290019473C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 189D79B222EF49270019473C;
+					};
+				};
+			};
+			buildConfigurationList = 189D79AE22EF49270019473C /* Build configuration list for PBXProject "ViewFinder Sharayu Veronica Ex" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189D79AA22EF49270019473C;
+			productRefGroup = 189D79B422EF49270019473C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189D79B222EF49270019473C /* ViewFinder Sharayu Veronica Ex */,
+				189D79C922EF49290019473C /* ViewFinder Sharayu Veronica ExTests */,
+				189D79D422EF49290019473C /* ViewFinder Sharayu Veronica ExUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189D79B122EF49270019473C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189D79C422EF49290019473C /* LaunchScreen.storyboard in Resources */,
+				189D79C122EF49290019473C /* Assets.xcassets in Resources */,
+				189D79BC22EF49270019473C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189D79C822EF49290019473C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189D79D322EF49290019473C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189D79AF22EF49270019473C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189D79B922EF49270019473C /* ViewController.swift in Sources */,
+				189D79B722EF49270019473C /* AppDelegate.swift in Sources */,
+				189D79BF22EF49270019473C /* ViewFinder_Sharayu_Veronica_Ex.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189D79C622EF49290019473C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189D79CF22EF49290019473C /* ViewFinder_Sharayu_Veronica_ExTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189D79D122EF49290019473C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189D79DA22EF49290019473C /* ViewFinder_Sharayu_Veronica_ExUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		189D79CC22EF49290019473C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189D79B222EF49270019473C /* ViewFinder Sharayu Veronica Ex */;
+			targetProxy = 189D79CB22EF49290019473C /* PBXContainerItemProxy */;
+		};
+		189D79D722EF49290019473C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189D79B222EF49270019473C /* ViewFinder Sharayu Veronica Ex */;
+			targetProxy = 189D79D622EF49290019473C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		189D79BA22EF49270019473C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189D79BB22EF49270019473C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		189D79C222EF49290019473C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189D79C322EF49290019473C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189D79DC22EF49290019473C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		189D79DD22EF49290019473C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189D79DF22EF49290019473C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ViewFinder Sharayu Veronica Ex/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "EmmaXavierKWK2019.ViewFinder-Sharayu-Veronica-Ex";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		189D79E022EF49290019473C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ViewFinder Sharayu Veronica Ex/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "EmmaXavierKWK2019.ViewFinder-Sharayu-Veronica-Ex";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		189D79E222EF49290019473C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ViewFinder Sharayu Veronica ExTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "EmmaXavierKWK2019.ViewFinder-Sharayu-Veronica-ExTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewFinder Sharayu Veronica Ex.app/ViewFinder Sharayu Veronica Ex";
+			};
+			name = Debug;
+		};
+		189D79E322EF49290019473C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ViewFinder Sharayu Veronica ExTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "EmmaXavierKWK2019.ViewFinder-Sharayu-Veronica-ExTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewFinder Sharayu Veronica Ex.app/ViewFinder Sharayu Veronica Ex";
+			};
+			name = Release;
+		};
+		189D79E522EF49290019473C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ViewFinder Sharayu Veronica ExUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "EmmaXavierKWK2019.ViewFinder-Sharayu-Veronica-ExUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ViewFinder Sharayu Veronica Ex";
+			};
+			name = Debug;
+		};
+		189D79E622EF49290019473C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ViewFinder Sharayu Veronica ExUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "EmmaXavierKWK2019.ViewFinder-Sharayu-Veronica-ExUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ViewFinder Sharayu Veronica Ex";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189D79AE22EF49270019473C /* Build configuration list for PBXProject "ViewFinder Sharayu Veronica Ex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189D79DC22EF49290019473C /* Debug */,
+				189D79DD22EF49290019473C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189D79DE22EF49290019473C /* Build configuration list for PBXNativeTarget "ViewFinder Sharayu Veronica Ex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189D79DF22EF49290019473C /* Debug */,
+				189D79E022EF49290019473C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189D79E122EF49290019473C /* Build configuration list for PBXNativeTarget "ViewFinder Sharayu Veronica ExTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189D79E222EF49290019473C /* Debug */,
+				189D79E322EF49290019473C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189D79E422EF49290019473C /* Build configuration list for PBXNativeTarget "ViewFinder Sharayu Veronica ExUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189D79E522EF49290019473C /* Debug */,
+				189D79E622EF49290019473C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		189D79BD22EF49270019473C /* ViewFinder_Sharayu_Veronica_Ex.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				189D79BE22EF49270019473C /* ViewFinder_Sharayu_Veronica_Ex.xcdatamodel */,
+			);
+			currentVersion = 189D79BE22EF49270019473C /* ViewFinder_Sharayu_Veronica_Ex.xcdatamodel */;
+			path = ViewFinder_Sharayu_Veronica_Ex.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 189D79AB22EF49270019473C /* Project object */;
+}
